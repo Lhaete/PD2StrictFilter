@@ -33,7 +33,7 @@ ItemDisplay[t11 OR t12 OR t13 OR t14 OR t15 OR t16 OR t17 OR t18]: %NAME%%DOT-62
 ItemDisplay[wms OR vps OR opl OR opm OR ops OR gpl OR gpm OR gps]:
 
 //Hide Arrows, Bolts, and Scrolls
-//ItemDisplay[tsc OR isc OR aqv OR cqv OR yps CLVL>9]:
+ItemDisplay[tsc OR isc OR aqv OR cqv OR yps CLVL>9]:
 
 //Show Keys, Arrows, Bolts
 ItemDisplay[key OR aqv OR cqv]: %GRAY%%NAME%
