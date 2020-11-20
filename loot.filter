@@ -99,10 +99,13 @@ ItemDisplay[GEMTYPE=7 DIFF<1]: %GRAY%%NAME%
 //Weapons & Armor -----------------------------------------------------
 
 //Show Socketed Items
-ItemDisplay[SOCK>0 ILVL>41]: %NAME% [%SOCKETS%] %CONTINUE%
+ItemDisplay[SOCK>0]: %NAME% [%SOCKETS%] %CONTINUE%
 
 //Hide Single Socketed Items
 ItemDisplay[SOCK=1 !MAG !RARE !UNI !SET !CRAFT]:
+
+//Hide Low ILVL Socketed Gear
+ItemDisplay[SOCK>0 ILVL<41]: 
 
 //Show Crafted Gear 
 ItemDisplay[CRAFT]: %NAME%%DOT-63%
