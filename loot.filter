@@ -101,6 +101,8 @@ ItemDisplay[GEMTYPE=7 DIFF<1]: %GRAY%%NAME%
 //Show Socketed Items
 ItemDisplay[SOCK>0]: %NAME% [%SOCKETS%] %CONTINUE%
 
+ItemDisplay[RW]: %NAME%
+
 //Hide Single Socketed Items
 ItemDisplay[SOCK=1 !MAG !RARE !UNI !SET !CRAFT]:
 
